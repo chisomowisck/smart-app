@@ -1,11 +1,12 @@
 const indexPath = '/pages'
 const calculatorPath = '/pages/calculators'
 
+
 export const routes = {
     index: '/',
     calculators: {
         duty:{
-            index: `${calculatorPath}/duty/DutyCalculator`,
+            index: `${calculatorPath}/duty`,
             details: `${calculatorPath}/duty/details`,
         },
         payee:{
