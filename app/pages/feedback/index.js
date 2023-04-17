@@ -1,9 +1,8 @@
 import { View, Text } from "react-native" 
-import styles from "./Feedback.styles"
 
 const Feedback = () => {
   return (
-    <View style={styles.container}>
+    <View>
         <Text>Feed Back</Text>
     </View>
   )

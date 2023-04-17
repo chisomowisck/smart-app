@@ -1,9 +1,8 @@
 import { View, Text } from "react-native" 
-import styles from "./Feedback.styles"
 
 export const TipOff = () => {
   return (
-    <View style={styles.container}>
+    <View>
         <Text>TipOff</Text>
     </View>
   )

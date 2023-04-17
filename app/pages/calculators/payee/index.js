@@ -1,9 +1,8 @@
 import { View, Text } from "react-native" 
-import styles from "./PayeeCalculator.styles"
 
 const PayeeCalculator = () => {
   return (
-    <View style={styles.container}>
+    <View>
         <Text>Payee Calculator</Text>
     </View>
   )

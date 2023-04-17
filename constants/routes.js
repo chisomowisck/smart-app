@@ -5,11 +5,11 @@ export const routes = {
     index: '/',
     calculators: {
         duty:{
-            index: `${calculatorPath}/duty/`,
+            index: `${calculatorPath}/duty/DutyCalculator`,
             details: `${calculatorPath}/duty/details`,
         },
         payee:{
-            index: `${calculatorPath}/payee/`,
+            index: `${calculatorPath}/payee`,
             details: `${calculatorPath}/payee/details`,
         },
         feedback: `${indexPath}/feedback`,
